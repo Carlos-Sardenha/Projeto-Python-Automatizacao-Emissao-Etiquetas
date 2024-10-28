@@ -5,10 +5,6 @@ import webbrowser
 import math
 import tkinter as tk
 
-import webbrowser
-import time
-import pyautogui
-
 tempo_espera = 6
 
 # Função para realizar o processo de impressão
