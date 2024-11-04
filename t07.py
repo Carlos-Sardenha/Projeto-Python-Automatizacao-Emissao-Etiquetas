@@ -4,12 +4,12 @@ import time
 import webbrowser
 import math
 
-loadscreen = 15
-indice_de_impressao = 1.5
+loadscreen = 20
+indice_de_impressao = 1.8
 
 # Função para realizar o processo de impressão
 def imprimir(link, quantidade):
-        tempo_impressao = quantidade * indice_de_impressao
+        #tempo_impressao = quantidade * indice_de_impressao
         
         # Busca o link
         time.sleep(0.75)
@@ -25,6 +25,7 @@ def imprimir(link, quantidade):
 
         # Função para imprimir um tipo específico
         def imprimir_tipo(qtd):
+            tempo_impressao = qtd * indice_de_impressao
             pyautogui.moveTo(x=1145, y=283, duration=0.5)
             pyautogui.click()
             pyautogui.hotkey('ctrl', 'p')
