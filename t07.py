@@ -9,7 +9,6 @@ indice_de_impressao = 1.5
 
 # Função para realizar o processo de impressão
 def imprimir(link, quantidade):
-    if quantidade < 5:
         tempo_impressao = quantidade * indice_de_impressao
         
         # Busca o link
